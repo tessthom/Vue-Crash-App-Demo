@@ -17,13 +17,14 @@
     name: 'Header',
     props: {
       title: String,
-      showAddTask: Boolean,
+      showAddTask: Boolean, // passed from App.vue, which is passed from Header.vue
     },
     components: {
       Button,
     },
     computed: {
-      homePage() {
+      homePage() {  
+        // if the current route is the home page, return true, else return false
         if(this.$route.path === '/') {
           return true
         } else {

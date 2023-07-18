@@ -5,7 +5,8 @@
 
 <script>
 export default {
+  // a view is a component that's rendered when a route is visited
   name: 'About',
-  inheritAttrs: false,
+  inheritAttrs: false,  // prevents attributes from being inherited by the root element of the component
 };
 </script>

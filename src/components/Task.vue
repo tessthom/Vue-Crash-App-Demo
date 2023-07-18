@@ -16,12 +16,7 @@ export default {
   name: 'Task',
   props: {
     task: Object,
-  },
-  // methods: {
-  //   onDelete(id) {
-  //     this.$emit('delete', id) 
-  //   }
-  // }
+  }
 }
 </script>
 
